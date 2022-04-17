@@ -8,26 +8,17 @@ from imaplib import Int2AP
 
 def Sum(num1, num2):
     result = num1 + num2
-    print("The sum of the two floating point numbers is:")
-    print(result)
-    print(type(result))
-    print()
+    print(f"The sum of the {num1} and {num2} is: {result}, the data type is: {type(result)}")
 
 # the difference between two integers, 
 def Difference(num1, num2):
     result = num1 - num2
-    print("The difference between the two integers is:")
-    print(result)
-    print(type(result))  
-    print()
+    print(f"The difference between {num1} and {num2} is: {result}, the data type is: {type(result)}")
 
 # and the product of a floating point number and an integer. 
 def Product(num1, num2):
     result = num1 * num2
-    print("The product of the integer and the floating point number is:")
-    print(result)
-    print(type(result))
-    print()
+    print(f"The product of {num1} and {num2} is: {result}, the data type is: {type(result)}")
 
 def main():
     floatNum1 = 114.514
